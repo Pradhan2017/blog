@@ -1,0 +1,67 @@
+@mixin clearfix{
+    &: after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+}
+@mixin linkStyle{
+	color:$lightBlue-color;
+    &:visited{
+        color:$lightBlue-color;
+    }
+    &:hover{
+        color:$lightOrange-color;
+        text-decoration:none;
+    }
+}
+@mixin centerIt{
+    margin:0 auto;
+    display:block;
+}
+@mixin buttonStyle{
+    color:$lightBlue-color;
+    background-color:transparent;
+    border:1px solid $lightBlue-color;
+    &:hover{
+        color:rgba(0,0,0,0.9);
+        border-color:$lightOrange-color;
+        background-color:$lightOrange-color;
+        cursor:pointer;
+        width:150px;
+        heigth:45px;
+    }
+}
+
+@function calcRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin fontStyle($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+@mixin transition($args) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin query-large {
+  @media only screen and (max-width: 60em) {
+    @content;
+  }
+}
+@mixin query-medium {
+  @media only screen and (max-width: 40em) {
+    @content;
+  }
+}
+@mixin query-small {
+  @media only screen and (max-width: 30em) {
+    @content;
+  }
+}

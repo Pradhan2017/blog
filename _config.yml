@@ -1,0 +1,12 @@
+# Site settings
+title: Paul Diederichs - developer95
+email: pdiederichssierr@fullsail.edu
+description: > # this means to ignore newlines until "baseurl:"
+  This is my personal blogging site, I am new at blogging so bear with me :P
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: pauldiederichs
+github_username:  developer95
+
+# Build settings
+markdown: kramdown

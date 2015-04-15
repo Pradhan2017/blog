@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Leu Verou"
+date:   2015-03-07 21:47:00
+categories: jekyll update
+---
+<img src="../../../../../images/smiling.jpg" alt="Michailia Verou" class="center-it">
+
+Michailia Verou, A.K.A Lea Verou has a very technical background; she is a computer scientist, web standards geek, front-end developer. She is now a Research assistant at MIT CSAIL, and also an invited in the W3C CSS working group. Verou has written a book about advanced CSS, given 60+ talks around the globe. 
+
+She is currently writing a book about all her CSS knowledge, in a recent blog post she mentions how difficult it has been to write the book and work for MIT at the same time.
+She has a presence on Twitter, Facebook, Lanyrd, LinkedIn, dribbble, and definitely on Github.
+
+Lea has recently coded her own autocomplete feature, I find it crazy and inspiring. I look forward to have the skill set to create things that can be beneficial to all web users.
+

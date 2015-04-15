@@ -1,0 +1,67 @@
+/**
+* Body Style
+*/
+html body {
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position:center top;
+ box-sizing:border-box;
+ background-color:rgba(0,0,0,0.9);
+ color:$trueWhite-color;
+}
+
+/**
+* All Links
+*/
+body a{
+    @include linkStyle;
+}
+/**
+* Nav Style
+*/
+div > a.site-title{
+    @include linkStyle;
+}
+header.site-header{
+    background-color:#000;
+    border:none;
+}
+.site-nav .page-link{
+    @include linkStyle;
+}
+/**
+* center class
+*/
+.center-it{
+    @include centerIt;
+}
+/**
+ * Post Style
+ */
+.post-meta{
+    margin-left:10px;
+}
+p{
+    @include fontStyle(14px);
+}
+/**
+* Button Style
+*/
+button{
+    @include buttonStyle;
+    @include transition(width 2s);
+}
+
+/**
+* Footer Style
+*/
+.site-footer{
+    border:none;
+    background-color:#000;
+}
+/**
+*Code
+*/
+pre, code{
+    color:#000;
+}

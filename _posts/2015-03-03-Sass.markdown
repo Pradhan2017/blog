@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Working with Sass"
+date:   2015-03-05 6:09:00
+categories: jekyll update
+---
+
+Sass is AMAZING, I love the use of variables, it is a functionally I always thought would make styling a lot easier. I am more comfortable using Sass than using Jekyll. Therefore I am not really messing around with the content, and I don't have an idea of other things I should place in my Website.

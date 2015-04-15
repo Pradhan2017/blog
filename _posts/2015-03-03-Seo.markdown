@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Separation Of Navigation And URL Architecture"
+date:   2015-03-19 22:50:00
+categories: jekyll update
+---
+
+What I got from what I read about Separating navigational links is that we should not overwhelm the user with too many options, instead only the most important and obvious to the workflow should be presented. In the absence of this, the user will most likely loose the interest to interact with the site.

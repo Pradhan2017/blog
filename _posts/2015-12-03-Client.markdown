@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Client Meetup"
+date:   2015-03-12 21:47:00
+categories: jekyll update
+---
+
+First I will be discovering a way to cohesively unite the features the client desires. Color scheme was adquired so it will help a lot in making the design.
